@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @temikay
-- 👀 I’m interested in programming
-- 🌱 I’m currently learning Web development
-- 💞️ I’m looking to collaborate on Python Programming
+- 👀 I’m a full-stack programmer, WebDev (HTML, CSS, JavaScript, PHP), Python, Java.
+- 🌱 I’m currently learning Mobile-app-Development [ReactNative & ReactJS]
+- 💞️ I’m looking to collaborate on Data Science,Artificial Intelligence (AI) and Mobile-app-Development.
 - 📫 How to reach me: https://www.facebook.com/temigbe.kayowa 07065727431 kayowatemigbe@gmail.com
 
 <!---
