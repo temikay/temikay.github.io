@@ -1886,7 +1886,7 @@ a.logo:focus .avater-image-container>div:first-child {
 @media (min-width: 768px) {
   .benefit-item {
       margin-top:0;
-      margin-bottom: 3rem
+      margin-bottom: 3rem;
   }
 }
 
