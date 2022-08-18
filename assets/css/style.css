@@ -94,6 +94,7 @@ header{
   text-align: center;
   font-size: 30px;
   padding: 50px 0;
+  background:none;
   
 }
 
@@ -236,7 +237,7 @@ body::-webkit-scrollbar-thumb {
 
 #nav {
   position: fixed;
-  top: -50px;
+  top: -75px;
   background-color: var(--color-60-medium-dark);
   opacity: 10;
   visibility: visible;

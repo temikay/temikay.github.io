@@ -8,7 +8,7 @@ function scrollFunction() {
         document.getElementById('scrollToTop').style.opacity='10';
     }
     else{
-        document.getElementById('nav').style.top='-50px';
+        document.getElementById('nav').style.top='-75px';
         document.getElementById('scrollToTop').style.opacity='0';
     }
 }
