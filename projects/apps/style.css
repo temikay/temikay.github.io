@@ -1,0 +1,60 @@
+.line{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    white-space: normal;
+    background-color: none;
+    width: fit-content;
+}
+
+.terminal{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: aqua;
+    animation-name: terminal;
+    animation-timing-function: linear;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes terminal {
+    0%{
+        padding: 15px;
+    }
+
+    50%{
+        padding: 2px;
+    }
+    
+    100%{
+        padding: 15px;
+       
+    }
+}
+
+.middle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: 10px;
+    background-color: aqua;
+    animation-name: middle;
+    animation-timing-function: linear;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes middle {
+    0%{
+        padding: 2px;
+    }
+
+    50%{
+        padding: 15px;
+    }
+    
+    100%{
+        padding: 2px;
+    }
+}
