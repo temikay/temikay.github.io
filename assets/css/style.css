@@ -24,8 +24,7 @@
 
 .change-widget{
   background-color: #1f84c7;
-  height: auto;
-  width: auto;
+  
   bottom: 10px;
   border-radius: 10px;
   color: #fff;
@@ -48,6 +47,33 @@
   transition: all 0.5s ease 0s;
 }
 
+@media (max-width: 538px) {
+  #scrollToTop{
+    height: 40px;
+    width: 45px;
+    right: 100px !important;
+    background-color: red !important;
+  }
+  .cv{
+    display: none;
+  }
+}
+
+@media (max-width: 232px) {
+  #scrollToTop{
+    height: 40px;
+    width: 45px;
+    right: 100px !important;
+    background-color: red !important;
+  }
+  
+}
+.shrink{
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+}
 .theme-changer{
   margin: 5px 5px 0px 5px;
   padding: 2px;
@@ -104,11 +130,15 @@ header{
   background-color: red;
 }
 .switch{
+  position:relative;
   border: 2px solid black;
+  display: flexbox;
   border-radius: 50px;
-  height: 30px;
-  width: 30px;
-  margin: 10px;
+  width: 15px;
+  height: 15px;
+  margin-bottom: 10px;
+  justify-content: center;
+
   cursor: pointer;
 }
 
