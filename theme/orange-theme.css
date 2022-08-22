@@ -1,7 +1,7 @@
 :root{
-  --color-accent-main: #ff871c;
-  --color-accent-main-lighter: #f38424;
-  --color-background-main-lighter: #e27413;
+  --color-accent-main: #ed760e;
+  --color-accent-main-lighter: #ed862c;
+  --color-background-main-lighter: #db8233;
   --color-accent-sec: #10b4e6;
   --color-accent-sec-lighter: #10ade6;
   --color-60-medium-dark: #1c1d26;
@@ -11,7 +11,9 @@
   background-color: var(--color-accent-main) !important;
   border: 2px solid var(--color-accent-main);
 }
-
+#scrollToTop:hover{
+  background-color: var(--color-accent-main-lighter) !important;
+}
 .header-contact-button{
   background-color: var(--color-accent-main) !important;
 }
@@ -72,7 +74,7 @@
 }
 
 .contact-button:hover {
-  background-color: var(--color-accent-sec-lighter)
+  background-color: var(--color-accent-main-lighter) !important;
 }
 
 .copy{

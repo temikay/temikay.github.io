@@ -11,7 +11,9 @@
   background-color: var(--color-accent-main) !important;
   border: 2px solid var(--color-accent-main);
 }
-
+#scrollToTop:hover{
+  background-color: var(--color-accent-main-lighter) !important;
+}
 .header-contact-button{
   background-color: var(--color-accent-main) !important;
 }
@@ -72,7 +74,7 @@
 }
 
 .contact-button:hover {
-  background-color: var(--color-accent-sec-lighter)
+  background-color: var(--color-accent-main-lighter) !important;
 }
 
 .copy{

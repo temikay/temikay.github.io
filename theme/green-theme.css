@@ -3,7 +3,7 @@
   --color-accent-main-lighter: #35c35f;
   --color-background-main-lighter: #3c7b51;
   --color-accent-sec: #bac748;
-  --color-accent-sec-lighter: #f8fa78;
+  --color-accent-sec-lighter: #c6d166eb;
   --color-60-medium-dark: #1c1d26;
   --color-illustration: #a2662e;
 }
@@ -11,7 +11,9 @@
   background-color: var(--color-accent-main) !important;
   border: 2px solid var(--color-accent-main);
 }
-
+#scrollToTop:hover{
+  background-color: var(--color-accent-main-lighter) !important;
+}
 .header-contact-button{
   background-color: var(--color-accent-main) !important;
 }
@@ -68,11 +70,11 @@
   fill: var(--color-accent-main);
 }
 .contact-button {
-  background-color: var(--color-accent-sec)
+  background-color: var(--color-accent-sec);
 }
 
 .contact-button:hover {
-  background-color: var(--color-accent-sec-lighter)
+  background-color: var(--color-accent-main-lighter) !important;
 }
 
 .copy{

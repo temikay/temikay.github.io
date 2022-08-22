@@ -109,9 +109,10 @@
   border: none !important;
 }
 
-.option:hover, .option:focus{
+#option:hover, #option:focus{
   outline: none !important;
   border: none !important;
+  --tw-ring-color: none;
 }
   /* a.project-code-link::title{
     width: 20px;
@@ -119,8 +120,12 @@
 
 
 }
-@media (max-width: 452px) {
+
+@media (max-width: 262px) {
   /*  */
+  .tech-link{
+    display: none;
+  }
 }
 .shrink{
   -webkit-transform: scale(0.5);
@@ -4646,6 +4651,15 @@ footer {
   display: inline;
   float: left;
   width: 100%;
+}
+
+.mu-footer-widget ul, .mu-footer-widget h4{
+  text-align: left;
+}
+.mu-footer-widget a:hover, .mu-footer-widget a:focus {
+  outline: none;
+  --tw-ring-color:none;
+  color: var(--color-accent-sec);
 }
 #mu-footer .mu-footer-top {
   background-color: #333;

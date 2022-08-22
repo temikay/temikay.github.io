@@ -1,17 +1,19 @@
 :root{
-  --color-accent-main: #01bafd;
-  --color-accent-main-lighter: #01bafd;
-  --color-background-main-lighter: #01bafd;
-  --color-accent-sec: rgb(199, 144, 72);
-  --color-accent-sec-lighter: rgb(120, 226, 250);
+  --color-accent-main: #318fe8f1;
+  --color-accent-main-lighter: #5da4e7f1;
+  --color-background-main-lighter: #51a0eaf1;
+  --color-accent-sec: #03cea4;
+  --color-accent-sec-lighter: #0edfb5;
   --color-60-medium-dark: #1c1d26;
-  --color-illustration: #a2662e;
+  --color-illustration: #26a965;
 }
 .scrollToTop {
   background-color: var(--color-accent-main)  !important;
   border: 2px solid var(--color-accent-main);
 }
-
+#scrollToTop:hover{
+  background-color: var(--color-accent-main-lighter) !important;
+}
 .header-contact-button{
   background-color: var(--color-accent-main) !important;
 }
@@ -72,7 +74,7 @@
 }
 
 .contact-button:hover {
-  background-color: var(--color-accent-sec-lighter)
+  background-color: var(--color-accent-main-lighter) !important;
 }
 
 .copy{
