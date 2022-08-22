@@ -12,7 +12,7 @@
   line-height: 50px;
   padding: 5px 0;
   text-align: center;
-  left: 90%;
+  right: 10px;
   z-index: 2;
   outline: none;
   -webkit-transition: all 0.5s ease 0s;
@@ -49,10 +49,10 @@
 
 @media (max-width: 538px) {
   #scrollToTop{
-    height: 40px;
+    /* height: 40px;
     width: 45px;
     right: 100px !important;
-    background-color: red !important;
+    background-color: red !important; */
   }
   .cv{
     display: none;
@@ -60,13 +60,67 @@
 }
 
 @media (max-width: 232px) {
-  #scrollToTop{
+  /* #scrollToTop{
     height: 40px;
     width: 45px;
     right: 100px !important;
     background-color: red !important;
+  } */
+  
+}
+@media (max-width: 374px) {
+  .project-description{
+    display: none;
   }
   
+  .project-header{
+    margin-top: -10;
+  }
+
+  a.project-code-link{
+    display: none;
+  }
+  a.project-site-link{
+    display: none;
+  }
+
+  .option, .option i.see{
+    display: block !important;
+    margin-bottom: 0 !important;
+    padding: 0px !important;
+    outline: none !important;
+    border: none !important;
+  }
+  .option, .option i.download{
+    display: block !important;
+    margin-bottom: 0 !important;
+    padding: 0px !important;
+    outline: none !important;
+    border: none !important;
+  }
+.option i.see:hover, .option i.see:focus {
+  color: var(--color-illustration);
+  outline: none !important;
+  border: none !important;
+}
+.option i.download:hover, .option i.download:focus{
+  color: var(--color-illustration);
+  outline: none !important;
+  border: none !important;
+}
+
+.option:hover, .option:focus{
+  outline: none !important;
+  border: none !important;
+}
+  /* a.project-code-link::title{
+    width: 20px;
+  } */
+
+
+}
+@media (max-width: 452px) {
+  /*  */
 }
 .shrink{
   -webkit-transform: scale(0.5);
@@ -4420,7 +4474,8 @@ footer {
 
 .fa-rotate-90 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
-  transform: rotate(90deg)
+  transform: rotate(90deg);
+  filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
 }
 
 .fa-rotate-180 {

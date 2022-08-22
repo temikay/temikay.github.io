@@ -46,7 +46,8 @@
         
         <link rel="sitemap" type="application/xml" href="/sitemap.xml"/>
         
-
+        <script src="./media.js"></script>
+        
         <link rel="stylesheet" href="./assets/css/style.css">
         <!-- <link rel="stylesheet" href="./assets/css/bootstrap.css"> -->
         <link rel="stylesheet" href="./assets/css/jquery.fancybox.css">
@@ -60,7 +61,7 @@
     </head>
     <body>
 
-        <a id='scrollToTop' href="#" class="scrollToTop">
+        <a id='scrollToTop' href="#" class="scrollToTop rounded-lg h-20 w-10 p-3 m-2 shadow-sm flex justify-end items-center flex-col">
             <i class="fa fa-angle-up"></i>
         </a> 
         
@@ -483,7 +484,7 @@ flex items-center flex-col sm:w-3/4 md:w-2/3 lg:w-64 lg:py-10 lg:w-full">
                                     </div>
                                     <div class="project-info-container mx-4 my-auto flex justify-between">
                                         <div class="project-text-container w-1/2 flex flex-col justify-end">
-                                            <h3 class="project-header text-lg md:text-xl font-semi-bold my-2">Computer Technologist</h3>
+                                            <h3 class="project-header text-lg md:text-xl font-semi-bold my-2" title="An official site for a Computer Technologist">Computer Technologist</h3>
                                             <p class="project-description text-xs mb-4 h-17 overflow-y-hidden leading-snug md:text-sm md:h-20">An official site for a Computer Technologist</p>
                                             <div class="project-tech-container flex flex-no-wrap">
                                                 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="tech-link text-xs md:text-sm border-2 rounded-md mb-2 mr-2" rel="noopener noreferrer" target="_blank">JavaScript</a>
@@ -499,6 +500,7 @@ flex items-center flex-col sm:w-3/4 md:w-2/3 lg:w-64 lg:py-10 lg:w-full">
                                                     <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                                                 </svg>
                                             </a>
+                                            <a class="option" href="/projects/bootsrap_coding.html" title="VIEW PROJECT"  style="display:none;"> <i class="fa fa-eye see text-xs md:text-sm rounded-md shadow-md flex items-center justify-around antialiased" style="display:none; justify-items:center; margin-left: 90%"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -527,7 +529,7 @@ flex items-center flex-col sm:w-3/4 md:w-2/3 lg:w-64 lg:py-10 lg:w-full">
                                     </div>
                                     <div class="project-info-container mx-4 my-auto flex justify-between">
                                         <div class="project-text-container w-1/2 flex flex-col justify-end">
-                                            <h3 class="project-header text-lg md:text-xl font-semi-bold my-2">Temikay Weblog</h3>
+                                            <h3 id="des" onmouseover="function des();" class="project-header text-lg md:text-xl font-semi-bold my-2" title="A personal Weblog for giving all sort of useful inforation.">Temikay Weblog</h3>
                                             <p class="project-description text-xs mb-4 h-17 overflow-y-hidden leading-snug md:text-sm md:h-20">A personal Weblog for giving all sort of useful inforation.</p>
                                             <div class="project-tech-container flex flex-no-wrap">
                                                 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="tech-link text-xs md:text-sm border-2 rounded-md mb-2 mr-2" rel="noopener noreferrer" target="_blank">HTML</a>
@@ -539,13 +541,14 @@ flex items-center flex-col sm:w-3/4 md:w-2/3 lg:w-64 lg:py-10 lg:w-full">
                                             </div>
                                         </div>
                                         <div class="project-buttons-container w-5/12 mb-2 flex flex-col justify-end font-extrabold leading-none">
-                                            <a href="./projects/temikayweb.html" target="_blank" rel="noopener noreferrer" class="project-site-link text-xs md:text-sm rounded-md shadow-md flex items-center justify-around antialiased">
+                                            <a href="/projects/temikayweb.html" target="_blank" rel="noopener noreferrer" class="project-site-link text-xs md:text-sm rounded-md shadow-md flex items-center justify-around antialiased">
                                                 View Project
                                                 <!-- -->
                                                 <svg class="w-4" fill="currentColor" viewBox="0 0 20 20">
                                                     <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                                                 </svg>
                                             </a>
+                                           <a class="option" href="/projects/temikayweb.html" title="VIEW PROJECT"  style="display:none;"> <i class="fa fa-eye see text-xs md:text-sm rounded-md shadow-md flex items-center justify-around antialiased" style="display:none; justify-items:center; margin-left: 90%"></i></a>
                                             <a href="https://github.com/temikay" class="project-code-link text-xs md:text-sm rounded-md shadow-md flex items-center justify-around mt-4 antialiased" rel="noopener noreferrer" target="_blank">
                                                 See the Code
                                                 <!-- -->
@@ -553,6 +556,7 @@ flex items-center flex-col sm:w-3/4 md:w-2/3 lg:w-64 lg:py-10 lg:w-full">
                                                     <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                                                 </svg>
                                             </a>
+                                            <a class="option" href="https://github.com/temikay" title="SEE CODE" style="display: none ;"> <i class="fa fa-download download text-xs md:text-sm rounded-md shadow-md flex items-center justify-around mt-4 antialiased" style="display: none; justify-items:center; margin-left: 90%"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -575,7 +579,7 @@ flex items-center flex-col sm:w-3/4 md:w-2/3 lg:w-64 lg:py-10 lg:w-full">
                                     </div>
                                     <div class="project-info-container mx-4 my-auto flex justify-between">
                                         <div class="project-text-container w-1/2 flex flex-col justify-end">
-                                            <h3 class="project-header text-lg md:text-xl font-semi-bold my-2">Ajasin Foundation</h3>
+                                            <h3 class="project-header text-lg md:text-xl font-semi-bold my-2" title="The official site of the Ajasin Foundation">Ajasin Foundation</h3>
                                             <p class="project-description text-xs mb-4 h-17 overflow-y-hidden leading-snug md:text-sm md:h-20">The official site of the Ajasin Foundation</p>
                                             <div class="project-tech-container flex flex-no-wrap">
                                                 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="tech-link text-xs md:text-sm border-2 rounded-md mb-2 mr-2" rel="noopener noreferrer" target="_blank">JavaScript</a>
@@ -591,6 +595,7 @@ flex items-center flex-col sm:w-3/4 md:w-2/3 lg:w-64 lg:py-10 lg:w-full">
                                                     <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                                                 </svg>
                                             </a>
+                                            <a class="option" href="/projects/temikayweb.html" title="VIEW PROJECT"  style="display:none;"> <i class="fa fa-eye see text-xs md:text-sm rounded-md shadow-md flex items-center justify-around antialiased" style="display:none; justify-items:center; margin-left: 90%"></i></a>                                        
                                         </div>
                                     </div>
                                 </div>
@@ -633,6 +638,7 @@ flex items-center flex-col sm:w-3/4 md:w-2/3 lg:w-64 lg:py-10 lg:w-full">
                                                     <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                                                 </svg>
                                             </a>
+                                            <a class="option" href="/projects/temikayweb.html" title="VIEW PROJECT"  style="display:none;"> <i class="fa fa-eye see text-xs md:text-sm rounded-md shadow-md flex items-center justify-around antialiased" style="display:none; justify-items:center; margin-left: 90%"></i></a> 
                                         </div>
                                     </div>
                                 </div>
@@ -680,13 +686,15 @@ flex items-center flex-col sm:w-3/4 md:w-2/3 lg:w-64 lg:py-10 lg:w-full">
                                                     <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                                                 </svg>
                                             </a>
-                                            <a href="https://github.com/temikay" class="project-code-link text-xs md:text-sm rounded-md shadow-md flex items-center justify-around mt-4 antialiased" rel="noopener noreferrer" target="_blank">
-                                                See the Code
+                                            <a class="option" href="/projects/temikayweb.html" title="VIEW PROJECT"  style="display:none;"> <i class="fa fa-eye see text-xs md:text-sm rounded-md shadow-md flex items-center justify-around antialiased" style="display:none; justify-items:center; margin-left: 90%"></i></a>
+                                            <a href="https://github.com/temikay" class="project-code-link text-xs md:text-sm rounded-md shadow-md flex items-center justify-around mt-4 antialiased" rel="noopener noreferrer" target="_blank"></a>
+                                            See the Code
                                                 <!-- -->
                                                 <svg class="w-4" fill="currentColor" viewBox="0 0 20 20">
                                                     <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                                                 </svg>
                                             </a>
+                                            <a class="option" href="https://github.com/temikay" title="SEE CODE" style="display: none ;"> <i class="fa fa-download download text-xs md:text-sm rounded-md shadow-md flex items-center justify-around mt-4 antialiased" style="display: none; justify-items:center; margin-left: 90%"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -725,6 +733,7 @@ flex items-center flex-col sm:w-3/4 md:w-2/3 lg:w-64 lg:py-10 lg:w-full">
                                                     <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                                                 </svg>
                                             </a>
+                                            <a class="option" href="/projects/temikayweb.html" title="VIEW PROJECT"  style="display:none;"> <i class="fa fa-eye see text-xs md:text-sm rounded-md shadow-md flex items-center justify-around antialiased" style="display:none; justify-items:center; margin-left: 90%"></i></a> 
                                         </div>
                                     </div>
                                 </div>
